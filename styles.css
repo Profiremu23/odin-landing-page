@@ -1,3 +1,28 @@
 body {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header, .logo, .about, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+
