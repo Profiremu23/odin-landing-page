@@ -4,11 +4,15 @@ body {
     padding: 0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex-direction: column;
+    zoom: 100%;
 }
 
 a {
-    color: #e5e7eb;
     text-decoration: none;
+}
+
+a, .links{
+    color: #e5e7eb;
 }
 
 .header, .logo, .about, .footer {
@@ -26,13 +30,12 @@ a {
 }
 
 .links {
-    color: #e5e7eb;
     font-size: 18px;
     display: flex;
     gap: 32px;
 }
 
-.logo, .hero {
+.logo, .hero, .info {
     font-weight: 700;
 }
 
@@ -51,6 +54,31 @@ a {
     font-size: 48px;
 }
 
+.info, .quote {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-style: oblique;
+}
+
 button {
     background-color: #3882f6;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
 }
