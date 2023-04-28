@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
 }
 
 a {
@@ -31,8 +32,25 @@ a {
     gap: 32px;
 }
 
-.logo {
-    font-size: 24px;
+.logo, .hero {
     font-weight: 700;
 }
 
+.logo {
+    font-size: 24px;
+}
+
+.about {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882f6;
+}
