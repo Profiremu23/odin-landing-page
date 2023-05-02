@@ -15,7 +15,7 @@ a, .links{
     color: #e5e7eb;
 }
 
-.header, .logo, .about, .footer {
+.header, .logo, .about-full, .footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -45,8 +45,11 @@ a, .links{
 
 .about-full {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     padding: 96px;
+    gap: 96px;
 }
 
 .about {
@@ -56,6 +59,7 @@ a, .links{
     flex-direction: column;
     max-width: 360px;
     max-height: 240px;
+    gap: 16px;
 }
 
 .hero {
