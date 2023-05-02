@@ -35,7 +35,7 @@ a, .links{
     gap: 32px;
 }
 
-.logo, .hero, .info {
+.logo, .hero, .info, button {
     font-weight: 700;
 }
 
@@ -115,18 +115,44 @@ a, .links{
     height: 32px;
 }
 
+.signup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 64px auto 64px auto;
+    background-color: #3882f6;
+    max-width: 700px;
+    max-height: 72px;
+    padding: 64px 128px;
+}
+
+.signup-attention {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #e5e7eb;
+}
+
+.action-call {
+    font-weight: 700;
+    font-size: 19px;
+}
+
 button {
     background-color: #3882f6;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #f9faf8;
+    height: 33px;
+    width: 126px;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    margin-top: auto;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 24px;
+    margin-top: 32px;
 }
