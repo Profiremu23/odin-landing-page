@@ -58,8 +58,13 @@ a, .links{
     flex: 1;
     flex-direction: column;
     max-width: 360px;
-    max-height: 240px;
+    max-height: 400px;
     gap: 16px;
+}
+
+.img1 {
+    max-width: 576px;
+    max-height: auto;
 }
 
 .hero {
@@ -82,8 +87,9 @@ a, .links{
 
 .cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 96px;
 }
 
 .card {
@@ -114,7 +120,7 @@ a, .links{
 .quote-text {
     text-align: justify;
     font-style: oblique;
-    height: 160px;
+    height: 80px;
     width: 800px;
 }
 
@@ -152,13 +158,14 @@ a, .links{
     font-size: 19px;
 }
 
-button {
+.button {
     background-color: #3882f6;
     border: 2px solid #ffffff;
     border-radius: 5px;
     color: #f9faf8;
     height: 33px;
     width: 126px;
+    cursor: pointer;
 }
 
 .footer {
